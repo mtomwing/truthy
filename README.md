@@ -4,6 +4,18 @@ truthy
 Small utility for parsing logic expressions and generating truth tables.
 
 
+Symbols
+------
+Propositional variables are a sequence of one or more uppercase letters.
+Whitespace is ignored and parentheses can be used to disambiguate expressions manually.
+
+Logical operators are:
+  * and - `&`
+  * biconditional - `<->`
+  * conditional - `->`
+  * not - `~`
+  * or - `v`
+
 Usage
 ------
 
